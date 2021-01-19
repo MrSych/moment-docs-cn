@@ -31,5 +31,5 @@ moment().subtract(1.5, 'months') == moment().subtract(2, 'months')
 moment().subtract(.7, 'years') == moment().subtract(8, 'months') //.7*12 = 8.4，取整到 8
 ```
 
-注意，为了使操作 ``moment.add(-.5, 'days')`` 和 ``moment.subtract(.5, 'days')`` 等价，-。5、-1.5、-2.5 等都向下舍入。
+注意，为了使操作 ``moment.add(-.5, 'days')`` 和 ``moment.subtract(.5, 'days')`` 等价，-.5、-1.5、-2.5 等都向下舍入。
 
